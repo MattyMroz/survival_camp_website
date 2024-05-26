@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/survival_camp_website/static/css/main.f855e6bc.css",
-    "main.js": "/survival_camp_website/static/js/main.1c0cdc63.js",
+    "main.css": "/survival_camp_website/static/css/main.a1a58636.css",
+    "main.js": "/survival_camp_website/static/js/main.e8f9d62c.js",
     "static/js/453.33413223.chunk.js": "/survival_camp_website/static/js/453.33413223.chunk.js",
-    "static/media/logo.svg": "/survival_camp_website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/survival_camp_website/index.html",
-    "main.f855e6bc.css.map": "/survival_camp_website/static/css/main.f855e6bc.css.map",
-    "main.1c0cdc63.js.map": "/survival_camp_website/static/js/main.1c0cdc63.js.map",
+    "main.a1a58636.css.map": "/survival_camp_website/static/css/main.a1a58636.css.map",
+    "main.e8f9d62c.js.map": "/survival_camp_website/static/js/main.e8f9d62c.js.map",
     "453.33413223.chunk.js.map": "/survival_camp_website/static/js/453.33413223.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.1c0cdc63.js"
+    "static/css/main.a1a58636.css",
+    "static/js/main.e8f9d62c.js"
   ]
 }
