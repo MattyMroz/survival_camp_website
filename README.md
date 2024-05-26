@@ -2,7 +2,7 @@
 
 Ten projekt to aplikacja React dla strony internetowej Survival Camp na zaliczenie przedmiotu "Projektowanie Interfejsów Aplikacji WWW" na Politechnice Łódzkiej w roku akademickim 2023/2024 - semestr letni (2024L).
 
-Projekt służył celom edukacyjnym i zaliczeniowym. Poniższe informacjie dotyczą procesu tworzenia i wdrażania aplikacji.
+Projekt służył celom edukacyjnym i zaliczeniowym. Poniższe informacje dotyczą procesu tworzenia i wdrażania aplikacji.
 
 ## Autorzy
 - Mateusz Mróz
