@@ -1,0 +1,54 @@
+/* =============== INPUTS =============== */
+.input__area {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px 0;
+}
+
+.input {
+    display: inline-block;
+    font-size: var(--input-font-size);
+    font-family: var(--bold-font);
+    padding: .4em 1.4em;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    border-radius: 8px;
+    border: 2px solid var(--text-color);
+    width: 100%;
+    transition: .1s;
+}
+
+.input:focus {
+    outline: none;
+    border-color: var(--first-color-alt);
+}
+
+.input::placeholder {
+    color: var(--text-color-alt);
+}
+
+.input__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100%);
+    height: calc(100%);
+    background: linear-gradient(90deg, var(--first-color) 0%, #ff0099 30%, var(--first-color-alt) 68%, #DB00FF 100%);
+    background-size: 600% 600%;
+    border-radius: 10px;
+    animation: AnimateBorder 4s ease infinite;
+    z-index: -1;
+    /* transform: translate(-2px, -2px); */
+    transition: filter 1s ease-in;
+}
+
+.input__area:hover .input__bg {
+    filter: blur(10px);
+    transition: filter .2s ease-in;
+}
+
+.input__area:focus-within .input__bg {
+    filter: blur(10px);
+    transition: filter .2s ease-in;
+}

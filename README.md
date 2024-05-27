@@ -159,6 +159,8 @@ albo po prawej stronie w menu repozytorium na GitHubie kliknij "github-pages" i 
 2. **Zainstaluj wszystkie niezbędne zależności:**
     ```sh
     npm install
+    npm install classnames
+    npm install validator
     ```
 
 3. **Uruchom aplikację w trybie deweloperskim:**

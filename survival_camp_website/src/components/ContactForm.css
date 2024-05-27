@@ -1,0 +1,98 @@
+.contact__form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 3rem;
+    border-radius: 8px;
+    max-width: 50rem;
+}
+
+.contact__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact__form h2 {
+    margin-bottom: 1.6rem;
+}
+
+.contact__form .form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    width: 100%;
+    margin-bottom: 1.6rem;
+}
+
+
+
+.error__text,
+.success__text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0.3em 1.4em;
+    border-radius: 8px;
+    font-size: var(--normal-font-size);
+    font-weight: bold;
+    font-family: var(--bold-font);
+    transition: .1s;
+    cursor: pointer;
+}
+
+.error__text {
+    background-color: #f8d7da;
+    color: #fe365c;
+    border: 2px solid #fe365c;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.success__text {
+    background-color: #d4edda;
+    color: #28a745;
+    border: 2px solid #28a745;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.error__text:active,
+.success__text:active {
+    transform: scale(.9);
+    transition: .1s;
+}
+
+.error__text:hover::after {
+    content: "Fix me!";
+    position: absolute;
+    top: -1.5em;
+    right: 0;
+    background-color: #f8d7da;
+    color: #fe365c;
+    border: 2px solid #fe365c;
+    border-radius: 8px;
+    padding: 0.2em 0.5em;
+    font-size: var(--normal-font-size);
+    font-weight: bold;
+    font-family: var(--bold-font);
+    white-space: nowrap;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.success__text:hover::after {
+    content: ";)";
+    position: absolute;
+    top: -1.5em;
+    right: 0;
+    background-color: #d4edda;
+    color: #28a745;
+    border: 2px solid #28a745;
+    border-radius: 8px;
+    padding: 0.2em 0.5em;
+    font-size: var(--normal-font-size);
+    font-weight: bold;
+    font-family: var(--bold-font);
+    white-space: nowrap;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
