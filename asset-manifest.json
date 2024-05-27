@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/survival_camp_website/static/css/main.a1a58636.css",
-    "main.js": "/survival_camp_website/static/js/main.e8f9d62c.js",
-    "static/js/453.33413223.chunk.js": "/survival_camp_website/static/js/453.33413223.chunk.js",
+    "main.css": "/survival_camp_website/static/css/main.b03e4d27.css",
+    "main.js": "/survival_camp_website/static/js/main.cf0348d3.js",
+    "static/js/453.7c48dfa9.chunk.js": "/survival_camp_website/static/js/453.7c48dfa9.chunk.js",
+    "static/media/Alegreya-Regular.ttf": "/survival_camp_website/static/media/Alegreya-Regular.0a7e77e595f15bb4c312.ttf",
+    "static/media/Serenity-SerifHeavy.woff": "/survival_camp_website/static/media/Serenity-SerifHeavy.35c7ab893671d06879ae.woff",
+    "static/media/Serenity-SerifItalic.woff": "/survival_camp_website/static/media/Serenity-SerifItalic.fae7382b4914adb5e544.woff",
     "index.html": "/survival_camp_website/index.html",
-    "main.a1a58636.css.map": "/survival_camp_website/static/css/main.a1a58636.css.map",
-    "main.e8f9d62c.js.map": "/survival_camp_website/static/js/main.e8f9d62c.js.map",
-    "453.33413223.chunk.js.map": "/survival_camp_website/static/js/453.33413223.chunk.js.map"
+    "main.b03e4d27.css.map": "/survival_camp_website/static/css/main.b03e4d27.css.map",
+    "main.cf0348d3.js.map": "/survival_camp_website/static/js/main.cf0348d3.js.map",
+    "453.7c48dfa9.chunk.js.map": "/survival_camp_website/static/js/453.7c48dfa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1a58636.css",
-    "static/js/main.e8f9d62c.js"
+    "static/css/main.b03e4d27.css",
+    "static/js/main.cf0348d3.js"
   ]
 }
