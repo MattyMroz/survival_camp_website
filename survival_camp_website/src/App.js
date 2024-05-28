@@ -1,15 +1,15 @@
 import './App.css';
 import React from 'react';
 import ContactForm from './components/ContactForm';
+// import Hamburger from './components/Hamburger';
+import Header from './components/Header';
 
 function App() {
     return (
-        <div className="App" style={{ width: "100%", height: "100vh" }}>
+        <main class="main">
+            <Header />
 
-            <ContactForm />
-
-
-        </div>
+        </main>
     );
 }
 
